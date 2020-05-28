@@ -1,0 +1,14 @@
+{
+  "name": "hw-css",
+  "homepage": "https://github.com/healthwatch/hw-css",
+  "_release": "2cbc128757",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2cbc128757f1bc19a29cd5031c3323c707942a78"
+  },
+  "_source": "https://github.com/healthwatch/hw-css.git",
+  "_target": "*",
+  "_originalSource": "healthwatch/hw-css",
+  "_direct": true
+}
