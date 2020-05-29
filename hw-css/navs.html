@@ -6,21 +6,21 @@
 <div class="container">
   <div class="nav text-lg" style="margin-bottom:1px">
     <img class="nav-item" src="img/logo.png">
-    <a class="nav-item bg-default first" style="margin-left:70px;margin-top:53px;">
+    <a class="nav-item bg-1 first" style="margin-left:70px;margin-top:53px;">
       News
-      <i class="fa fa-arrow-right m-l-50" aria-hidden="true"></i>
+      <i class="fa fa-arrow-circle-o-down m-l-60" aria-hidden="true"></i>
     </a>
-    <a class="nav-item bg-primary m-l-1" style="margin-top:53px;">
+    <a class="nav-item bg-primary-gradient m-l-1" style="margin-top:53px;">
       My Health
-      <i class="fa fa-arrow-right m-l-50" aria-hidden="true"></i>
+      <i class="fa fa-arrow-circle-o-right m-l-60" aria-hidden="true"></i>
     </a>
-    <a class="nav-item bg-secondary m-l-1" style="margin-top:53px;">
+    <a class="nav-item bg-3 m-l-1" style="margin-top:53px;">
       About
-      <i class="fa fa-arrow-right m-l-50" aria-hidden="true"></i>
+      <i class="fa fa-arrow-circle-o-right m-l-60" aria-hidden="true"></i>
     </a>
     <div style="clear:both"></div>
   </div>
-  <div class="nav text-lg bg-secondary" style="padding:10px 20px;">
+  <div class="nav text-lg bg-2" style="padding:10px 20px;">
     <a class="nav-item bg-default" style="padding-bottom:12px"> <!-- A little adjustment-->
       <i class="fa fa-home" aria-hidden="true"></i>
     </a>
@@ -75,8 +75,24 @@
 </div>
 
 <style>
+  .m-l-60 {
+    margin-left: 60px;
+  }
+  .bg-1 {
+    background-image: linear-gradient(#A0A0A0, #848383);
+  }
+  .bg-2 {
+    background-image: linear-gradient(#848383, #5C5C5C);
+  }
+  .bg-3 {
+    background-image: linear-gradient(#C7C7C7, #9A9A9A);
+  }
+  .bg-primary-gradient {
+    background-image: linear-gradient(#5FAECF, #3B92C7);    
+  }
   .nav {
     border-radius: 5px;
+    color: white;
   }
   .nav-item .first {
     margin-left: 100px;
@@ -86,7 +102,6 @@
     float: left;
     padding: 10px 10px;
     border-radius: 3px;
-    margin-right: 10px;
   }
   .nav li a {
     color: white;
